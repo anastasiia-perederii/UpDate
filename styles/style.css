@@ -13,7 +13,7 @@ body {
 /* Header */
 .header {
   display: flex;
-  padding: 36px 0 0;
+  padding: 36px 0;
   justify-content: space-between;
 }
 
@@ -67,7 +67,7 @@ body {
 .header__btn {
   background-color: #19191C;
   color: #EFEFF2;
-  padding: 12px 37px 12px 37px;
+  padding: 12px 37px;
   text-decoration: none;
   font-size: 18px;
   line-height: 22px;
@@ -75,13 +75,19 @@ body {
 }
 
 /* Offer section*/
+
 .offer-section {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 0 230px;
+  background: url(../images/offer_section_man_background.png) 100% 100% no-repeat;
 }
 
 .offer-section__holder {
   width: 648px;
+  padding-top: 80px;
+  background: url(../images/offer_section_gradient_left.png) 100% 100% no-repeat;
 }
 
 .offer__title {
@@ -89,6 +95,99 @@ body {
   font-size: 58px;
   line-height: 70px;
   font-weight: 700;
+  margin: 0 0 18px;
+}
+
+.offer__description {
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0 0 62px;
+}
+
+.offer__text-link {
+  font-weight: 700;
+  text-decoration: none;
+  color: #504DEE;
+}
+
+.offer__button {
+  background: #504DEE;
+  color: #FBFBFC;
+  border: none;
+  padding: 16px 37px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  margin: 0 0 110px;
+}
+
+.offer__sale {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 70px;
+  margin: 0;
+}
+
+.offer__time {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+}
+
+.offer__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+  position: relative;
+}
+
+.offer__item {
+  position: absolute;
+  border: 2px solid #19191C;
+  padding: 16px 36px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.offer__marketer {
+  top: 120px;
+  right: -10px;
+}
+
+.offer__illustrator {
+  top: 10px;
+  right: 200px;
+}
+
+.offer__animator {
+  top: 80px;
+  right: 480px;
+}
+
+.offer__programmer {
+  top: 220px;
+  right: 630px;
+}
+
+.offer__designer {
+  top: 400px;
+  right: 800px;
+}
+
+.offer__photographer {
+  top: 600px;
+  right: 700px;
+}
+
+/*Learn Section*/
+
+.learn-section {
+  background: #19191C;
+  color: #FBFBFC;
+  padding: 168px 0 0;
 }
 
 /* Footer */
