@@ -63,7 +63,6 @@
           in-demand skills. All courses are aimed at practice: we monitor the relevance of the material and help with
           employment and internship</p>
       </div>
-
       <div class="learn__counters">
         <div class="learn__counter-item">
           <p class="learn__counter-number">56</p>
@@ -82,59 +81,66 @@
   </section>
 
   <section class="discover-section">
-    <h2 class="discover__title">Discover Lifelong Learning</h2>
-    <ul class="discover__list">
-      <li>
-        <button class="discover__button">Popular</button>
-      </li>
-      <li>
-        <button class="discover__button">Animation</button>
-      </li>
-      <li>
-        <button class="discover__button">Design</button>
-      </li>
-      <li>
-        <button class="discover__button">Illustration</button>
-      </li>
-      <li>
-        <button class="discover__button">Programming</button>
-      </li>
-      <li>
-        <button class="discover__button">Photo & Film</button>
-      </li>
-      <li>
-        <button class="discover__button">Marketing</button>
-      </li>
-    </ul>
-    <a href="#" class="discover__button">
-      See more
-      <img src="images/discover_section_see_more_arrow.svg" alt="see more"/>
-    </a>
-    <div class="discover__cards">
-      <article class="discover__card-item">
-        <img class="discover__card-img" src="images/discover_section_card_img_1.jpeg" alt="Sales Marketing"/>
-        <h3 class="discover__card-title">Sales Marketing</h3>
-        <p class="discover__card-length">6 months</p>
-      </article>
-      <article class="discover__card-item">
-        <img class="discover__card-img" src="images/discover_section_card_img_2.jpeg" alt="Data analytics"/>
-        <h3 class="discover__card-title">Data analytics</h3>
-        <p class="discover__card-length">9 months</p>
-      </article>
-      <article class="discover__card-item">
-        <img class="discover__card-img" src="images/discover_section_card_img_3.jpeg" alt="Design art"/>
-        <h3 class="discover__card-title">Design art</h3>
-        <p class="discover__card-length">4 months</p>
-      </article>
-      <article class="discover__card-item">
-        <img class="discover__card-img" src="images/discover_section_card_img_4.jpeg" alt="Animation "/>
-        <h3 class="discover__card-title">Animation </h3>
-        <p class="discover__card-length">8 months</p>
-      </article>
+    <div class="container discover-section__container">
+      <h2 class="discover__title">Discover Lifelong Learning</h2>
+      <div class="discover__slider">
+        <ul class="discover__list">
+          <li>
+            <button class="discover__button">Popular</button>
+          </li>
+          <li>
+            <button class="discover__button">Animation</button>
+          </li>
+          <li>
+            <button class="discover__button">Design</button>
+          </li>
+          <li>
+            <button class="discover__button">Illustration</button>
+          </li>
+          <li>
+            <button class="discover__button">Programming</button>
+          </li>
+          <li>
+            <button class="discover__button">Photo & Film</button>
+          </li>
+          <li>
+            <button class="discover__button">Marketing</button>
+          </li>
+        </ul>
+
+        <a href="#" class="discover__button-img">
+          See more
+          <img src="images/discover_section_see_more_arrow.svg" alt="see more"/>
+        </a>
+
+      </div>
+      <div class="discover__cards">
+        <article class="discover__card-item">
+          <img class="discover__card-img" src="images/discover_section_card_img_1.jpeg" alt="Sales Marketing"/>
+          <h3 class="discover__card-title">Sales Marketing</h3>
+          <p class="discover__card-length">6 months</p>
+        </article>
+        <article class="discover__card-item">
+          <img class="discover__card-img" src="images/discover_section_card_img_2.jpeg" alt="Data analytics"/>
+          <h3 class="discover__card-title">Data analytics</h3>
+          <p class="discover__card-length">9 months</p>
+        </article>
+        <article class="discover__card-item">
+          <img class="discover__card-img" src="images/discover_section_card_img_3.jpeg" alt="Design art"/>
+          <h3 class="discover__card-title">Design art</h3>
+          <p class="discover__card-length">4 months</p>
+        </article>
+        <article class="discover__card-item">
+          <img class="discover__card-img" src="images/discover_section_card_img_4.jpeg" alt="Animation "/>
+          <h3 class="discover__card-title">Animation </h3>
+          <p class="discover__card-length">8 months</p>
+        </article>
+      </div>
     </div>
   </section>
 
   <section class="contact-us-section">
+    <div class="container contact-us-section__container">
     <div class="contact-us__text">
       <h2 class="contact-us__title">Can't find a suitable program?</h2>
       <p class="contact-us__description">We will help you with the choice!</p>
@@ -143,10 +149,9 @@
     <form name="contact-us__form" autocomplete="off">
       <div class="contact-section__form-field input">
         <label class="input-label visually-hidden" for="user-name">
-          Name
         </label>
         <input
-            class="form__input"
+            class="contact-form__input"
             type="text"
             id="user-name"
             name="user-name"
@@ -156,10 +161,9 @@
       </div>
       <div class="contact-section__form-field input">
         <label class="input-label visually-hidden" for="user-email">
-          Email
         </label>
         <input
-            class="form__input"
+            class="contact-form__input"
             type="email"
             id="user-email"
             name="user-email"
@@ -167,11 +171,12 @@
             required
         />
       </div>
-      <button class="contact-us__btn" type="submit">
+      <button class="contact-form__btn" type="submit">
         Help me
       </button>
     </form>
   </section>
+  </div>
 </main>
 
 <footer class="footer">
